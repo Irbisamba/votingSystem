@@ -1,0 +1,2 @@
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/5263fd50ee724ec9b2f0ea68f79ce248)](https://www.codacy.com/manual/Irbisamba/votingSystem?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Irbisamba/votingSystem&amp;utm_campaign=Badge_Grade)
+[![Build Status](https://travis-ci.org/Irbisamba/votingSystem.svg?branch=master)](https://travis-ci.org/Irbisamba/votingSystem)
