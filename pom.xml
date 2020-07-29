@@ -17,6 +17,8 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
+    <tomcat.version>8.5.23</tomcat.version>
+    <spring.version>5.2.8.RELEASE</spring.version>
   </properties>
 
   <dependencies>
@@ -26,6 +28,69 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+      <groupId>org.apache.tomcat.embed</groupId>
+      <artifactId>tomcat-embed-core</artifactId>
+      <version>${tomcat.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.tomcat.embed</groupId>
+      <artifactId>tomcat-embed-jasper</artifactId>
+      <version>${tomcat.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.tomcat</groupId>
+      <artifactId>tomcat-jasper</artifactId>
+      <version>${tomcat.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.tomcat</groupId>
+      <artifactId>tomcat-jasper-el</artifactId>
+      <version>${tomcat.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.tomcat</groupId>
+      <artifactId>tomcat-jsp-api</artifactId>
+      <version>${tomcat.version}</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.springframework/spring-core -->
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-core</artifactId>
+      <version>${spring.version}</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.springframework/spring-context -->
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-context</artifactId>
+      <version>${spring.version}</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.springframework/spring-web -->
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-web</artifactId>
+      <version>${spring.version}</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.springframework/spring-webmvc -->
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-webmvc</artifactId>
+      <version>${spring.version}</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.thymeleaf/thymeleaf-spring5 -->
+    <dependency>
+      <groupId>org.thymeleaf</groupId>
+      <artifactId>thymeleaf-spring5</artifactId>
+      <version>3.0.11.RELEASE</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/hsqldb/hsqldb -->
+    <dependency>
+      <groupId>hsqldb</groupId>
+      <artifactId>hsqldb</artifactId>
+      <version>1.8.0.10</version>
+      <scope>test</scope>
+    </dependency>
+
   </dependencies>
 
   <build>
