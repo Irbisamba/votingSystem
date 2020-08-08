@@ -26,6 +26,10 @@ public abstract class BaseEntity implements Persistable<Integer> {
         this.id = id;
     }
 
+    protected BaseEntity(String name) {
+        this.name = name;
+    }
+
     public void setId(Integer id) {
         this.id = id;
     }
