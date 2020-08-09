@@ -1,4 +1,4 @@
-package ru.yastrebova.voting.system;
+package ru.yastrebova.voting.system.web;
 
 import org.springframework.stereotype.Controller;
 
